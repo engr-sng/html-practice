@@ -1,0 +1,96 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav{
+  text-align: center;  
+}
+
+.nav-list{
+  border-top: 1px solid #6c6b6b;
+  border-bottom: 1px solid #6c6b6b;  
+}
+
+.nav-list-item{
+  padding: 15px 20px;
+  display: inline-block;
+}
+
+.main-contnts{
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-content{
+  width: 200px;
+  height: 200px;
+}
+
+.box-color1{
+  background-color: #e6ffe9;  
+}
+
+.box-color2{
+  background-color: #cbffd3;  
+}
+
+.box-color3{
+  background-color: #aeffbd;  
+}
+
+.box-color4{
+  background-color: #93ffab;  
+}
+
+.box-color5{
+  background-color: #f3ffd8;  
+}
+
+.box-color6{
+  background-color: #edffbe;  
+}
+
+.box-color7{
+  background-color: #e9ffa5;  
+}
+
+.box-color8{
+  background-color: #e4ff8d;  
+}
+
+.box-color9{
+  background-color: #d9e5ff;  
+}
+
+.box-color10{
+  background-color: #bad3ff;  
+}
+
+.box-color11{
+  background-color: #a4c6ff;  
+}
+
+.box-color12{
+  background-color: #8eb8ff;  
+}
+
+footer{
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282
+}
+
+.footer-text{
+  color: #fff;
+}
