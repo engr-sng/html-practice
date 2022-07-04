@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.list-section{
+  margin-bottom: 50px;
+}
+
+.list-item{
+  list-style: none;
+  padding: 20px;
+}
+
+.list-item:nth-child(odd){
+  background-color: #dcdcdc;
+}
+
+.box-section{
+  margin-bottom: 50px;  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-type{
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box-type:nth-child(3n+1){
+  margin-right: 5%;
+}
+
+.box-type:nth-child(3n+2){
+  margin-right: 5%;
+}
+
+.box-type:nth-child(n+4){
+  margin-top: 40px;
+}
+
+.box-type:nth-child(4n+1){
+  background-color: orange;
+}
